@@ -1,0 +1,5 @@
+image:
+  repository: bhojeshwarsahu/mysql:latest
+  tag: latest
+service: 
+  clusterIP: 10.107.180.2
