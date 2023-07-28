@@ -19,3 +19,5 @@ spec:
         env:
         - name: MYSQL_ROOT_PASSWORD
           value: root
+      imagePullSecrets:
+      - name: regcred  
