@@ -1,6 +1,6 @@
 replicaCount: 2
 image:
-  repository: bhojeshwarsahu/frontend:latest
+  repository: bhojeshwarsahu/frontend
   tag: latest
 service:
   port: 5000
