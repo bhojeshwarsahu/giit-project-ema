@@ -9,4 +9,5 @@ spec:
   - protocol: TCP
     port: {{ .Values.service.port }}
     targetPort: {{ .Values.service.port }}
-  type: NodePort
+    nodePort: {{.Values.service.nodePort}}
+  type: {{.Values.service.type}}
