@@ -2,5 +2,6 @@ replicaCount: 2
 image:
   repository: bhojeshwarsahu/backend
   tag: latest
+  containerPort:8000
 service:
   clusterIP: 10.107.180.1
