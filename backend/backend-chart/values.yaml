@@ -1,6 +1,6 @@
 replicaCount: 2
 image:
-  repository: bhojeshwarsahu/backend:latest
+  repository: bhojeshwarsahu/backend
   tag: latest
 service:
   clusterIP: 10.107.180.1
